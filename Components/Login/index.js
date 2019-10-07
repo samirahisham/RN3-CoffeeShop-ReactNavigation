@@ -15,7 +15,7 @@ import {
   Header
 } from "native-base";
 
-const Login = () => {
+const Login = props => {
   return (
     <Content>
       <Header transparent />
