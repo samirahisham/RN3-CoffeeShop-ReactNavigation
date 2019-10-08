@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-native-gesture-handler@~1.3.0 react-native-reanimated@~1.1.0
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add react-navigation-tabs
 
 PATH: 
   C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\Samira\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Skype\Phone\;C:\altera\13.1\quartus\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Users\Samira\Miniconda3;C:\Users\Samira\Miniconda3\Library\mingw-w64\bin;C:\Users\Samira\Miniconda3\Library\usr\bin;C:\Users\Samira\Miniconda3\Library\bin;C:\Users\Samira\Miniconda3\Scripts;C:\Users\Samira\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Samira\AppData\Local\Programs\Python\Python37\;C:\Users\Samira\AppData\Local\Microsoft\WindowsApps;C:\Users\Samira\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\flutter\bin;C:\cygwin\bin;C:\Users\Samira\AppData\Local\Yarn\bin;C:\Users\Samira\AppData\Roaming\npm;C:\Users\Samira\Anaconda3\Scripts;C:\Users\Samira\Anaconda3
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: EPERM: operation not permitted, unlink 'C:\Users\Samira\Desktop\CODED\reactNative\RN3-CoffeeShop-ReactNavigation\node_modules\@babel\core\node_modules\@babel\traverse\node_modules\.bin'
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Samira\Desktop\CODED\reactNative\RN3-CoffeeShop-ReactNavigation\node_modules\@babel\core\node_modules\@babel\template\node_modules\.bin'
 
 npm manifest: 
   {
@@ -38,6 +38,8 @@ npm manifest:
       "react": "16.8.3",
       "react-dom": "^16.8.6",
       "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
+      "react-native-gesture-handler": "~1.3.0",
+      "react-native-reanimated": "~1.1.0",
       "react-native-web": "^0.11.4",
       "react-navigation": "^4.0.10",
       "react-navigation-stack": "^1.9.3"
@@ -4566,6 +4568,15 @@ Lockfile:
     dependencies:
       lodash "4.17.11"
   
+  react-native-gesture-handler@~1.3.0:
+    version "1.3.0"
+    resolved "https://registry.yarnpkg.com/react-native-gesture-handler/-/react-native-gesture-handler-1.3.0.tgz#d0386f565928ccc1849537f03f2e37fd5f6ad43f"
+    integrity sha512-ASRFIXBuKRvqlmwkWJhV8yP2dTpvcqVrLNpd7FKVBFHYWr6SAxjGyO9Ik8w1lAxDhMlRP2IcJ9p9eq5X2WWeLQ==
+    dependencies:
+      hoist-non-react-statics "^2.3.1"
+      invariant "^2.2.2"
+      prop-types "^15.5.10"
+  
   react-native-iphone-x-helper@^1.0.3:
     version "1.2.0"
     resolved "https://registry.yarnpkg.com/react-native-iphone-x-helper/-/react-native-iphone-x-helper-1.2.0.tgz#9f8a376eb00bc712115abff4420318a0063fa796"
@@ -4578,6 +4589,11 @@ Lockfile:
     dependencies:
       prop-types "^15.6.2"
       react-native-iphone-x-helper "^1.0.3"
+  
+  react-native-reanimated@~1.1.0:
+    version "1.1.0"
+    resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-1.1.0.tgz#ba6864055ec3a206cdd5209a293fe653ce276206"
+    integrity sha512-UGDVNfvuIkMqYUx6aytSzihuzv6sWubn0MQi8dRcw7BjgezhjJnVnJ/NSOcpL3cO+Ld7lFcRX6GKcskwkHdPkw==
   
   react-native-safe-area-view@^0.14.1:
     version "0.14.8"

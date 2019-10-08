@@ -4,8 +4,8 @@ import { createStackNavigator } from "react-navigation-stack";
 import Home from "../Components/HomePage";
 import Login from "../Components/Login";
 
-import coffeeList from "../Components/CoffeeDetail";
-import coffeeDetail from "../Components/CoffeeList";
+import coffeeDetail from "../Components/CoffeeDetail";
+import coffeeList from "../Components/CoffeeList";
 
 const MyStackNav = createStackNavigator(
   {

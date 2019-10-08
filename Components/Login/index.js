@@ -49,7 +49,7 @@ const Login = props => {
             </Form>
           </Body>
         </ListItem>
-        <Button onPress={() => props.navigation.navigate("coffeeList")}>
+        <Button onPress={() => props.navigation.navigate("Profile")}>
           <Text>Login</Text>
         </Button>
         <Button full warning>
